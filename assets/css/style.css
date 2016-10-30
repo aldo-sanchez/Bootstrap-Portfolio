@@ -1,0 +1,91 @@
+
+html, body{
+  height: 100%;
+  /*background-image: url("../images/congruent_outline.png");*/
+}
+
+#wrap{
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding-inline-end: 0 0 60px;
+}
+
+
+
+#footer{
+  height: 60px;
+  color: #ed8021;
+  text-align: center;
+  border-top: solid black;
+}
+
+h2{
+  color: #ed8021;
+}
+
+.connectWithMe {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.panel-heading{
+  text-align: center;
+}
+
+.projectTitle{
+  text-align: center;
+}
+
+.connectList {
+    display: inline;
+    margin: 7px;
+}
+
+.fa {
+    font-size: 50px;
+    color: black
+}
+
+    .fa:hover {
+      /*color: var(--mainColor);*/
+      color: #ed8021;
+    }
+
+.portfolioImage{
+  text-align: center;
+}
+
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px #ed8021;
+  border: 1px solid #ed8021;
+}
+
+textarea:focus, input:focus, .uneditable-input:focus {   
+    border-color: #ed8021 !important;
+    box-shadow: 0 1px 1px #ed8021 inset, 0 0 8px #ed8021!important;
+    outline: 0 none !important;
+}
+
+@media screen and (max-width: 980px){
+  #wrap{
+    margin: 0 auto 0;
+    padding-inline-end: 0 0 0x;
+  }
+}
+@media screen and (max-width: 764px){
+  #wrap{
+    margin: 0 auto 0;
+    padding-inline-end: 0 0 0x;
+  }
+}
+
+@media screen and (max-width: 640px){
+  #wrap{
+    margin: 0 auto 0;
+    padding-inline-end: 0 0 0x;
+  }
+  }
