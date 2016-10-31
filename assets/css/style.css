@@ -70,6 +70,16 @@ textarea:focus, input:focus, .uneditable-input:focus {
     outline: 0 none !important;
 }
 
+.btn{
+  margin-bottom: 10px;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    color: black;
+    background-color: white;
+    border-color: #ed8021; /*set the color you want here*/
+}
+
 @media screen and (max-width: 980px){
   #wrap{
     margin: 0 auto 0;
